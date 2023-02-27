@@ -1,0 +1,193 @@
+@font-face {
+	font-family: chirp;
+	src: url("https://media.roddydev.com/fonts/roboto/Roboto-Regular.ttf");
+}
+
+
+body {
+    background-color: #1f1f1f;
+    padding: 0;
+    margin: 0;
+    font-family: chirp;
+}
+
+.header {
+    background-color: #1f2331;
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color:#8690be;
+    border-right: 1px solid black;
+    float: left;
+    min-height: calc(100vh - 82px);
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_content * {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+
+.action_bar {
+    background-color: black;
+    padding: 1rem;
+}
+
+button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #8690be;
+    border: none;
+    color: black;
+    width: 100%;
+}
+
+.selected {
+    background-color: #4f5673 !important;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #707aa8;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 14px;
+    margin: 16px;
+    width: 128px;
+    background-color: #1f2331;
+    cursor: pointer;
+}
+
+.item:hover {
+    transform: scale(1.15);
+}
+
+/* .funcionario {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #5a3f3f;
+}
+
+.funcionario:nth-child(even) {
+    background-color: #936666;
+} */
+
+text {
+    text-align: center;
+    margin-right: 16px;
+    display:block;
+}
+
+h1 {
+    color:white;
+}
+
+input, select, option {
+    color: black !important;
+}
+
+.departamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    outline: none;
+    width: 200px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    gap: 5px;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+}
+
+.separador {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+}
+
+select {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    outline: none;
+    width: 250px;
+    text-align: center;
+}
+
+.submitForm {
+    width: fit-content;
+    padding: 0.8rem 1.4rem;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.removeButton {
+    background-color: #e52335 !important;
+}
+
+/* #5a3f3f
+#936666 */
